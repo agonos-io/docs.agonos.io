@@ -12,5 +12,5 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_SCRIPT: npm i && npm i docs:build
+        BUILD_SCRIPT: npm i && npm run docs:build
         BUILD_DIR: docs/.vuepress/dist/
