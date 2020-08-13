@@ -1,0 +1,15 @@
+{
+  "name": "docs-agonos-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "@agonos-io",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
