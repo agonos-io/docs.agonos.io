@@ -21,6 +21,14 @@ module.exports = {
                   '/development/hooks'
               ]
         }
-        ]
-      }
+      ]
+    },
+    plugins: [
+      [
+        '@vuepress/google-analytics',
+        {
+          'ga': 'UA-51324709-19'
+        }
+      ]
+    ]
   }
