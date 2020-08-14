@@ -8,6 +8,7 @@ module.exports = {
           {
             title: "Administration",
             path: '/administration/',
+            collapsable: false,
             children: [
                 '/administration/user-management',
                 '/administration/group-management',
@@ -17,11 +18,15 @@ module.exports = {
           {
               title: "Development",
               path: "/development/",
+              collapsable: false,
               children: [
                   '/development/hooks'
               ]
         }
-      ]
+      ],
+      lastUpdated: true, 
+      nextLinks: false,
+      prevLinks: false
     },
     plugins: [
       [
